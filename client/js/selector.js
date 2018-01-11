@@ -10,11 +10,11 @@ $(document).ready(function() {
 
     $.ajax({
       method: 'GET',
-      url: '/zodiac-by-users/'+selector.zodiac,
+      url: '/zodiac-by-users/' + selector.zodiac,
     }).then(function(results) {
       // console.log(results)
       for (var i = 0; i < results.length; i++) {
-        newRow = $('<tr class="zodiac-row">')
+        newRow = $('<tr>')
         nameTd = $('<td>');
         dobTd = $('<td>');
         zodiacTd = $('<td>');

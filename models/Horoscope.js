@@ -7,8 +7,7 @@ module.exports = function(sequelize, DataTypes) {
     date_range: DataTypes.DATE
   }, {
     classMethods: {
-      associate: function(models) {
-      }
+      associate: function(models) {}
     }
   });
   return Horoscope_Tables;

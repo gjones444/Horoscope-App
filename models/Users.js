@@ -6,8 +6,7 @@ module.exports = function(sequelize, DataTypes) {
     Zodiac: DataTypes.STRING
   }, {
     classMethods: {
-      associate: function(models) {
-      }
+      associate: function(models) {}
     }
   });
   return Users;
