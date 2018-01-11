@@ -14,7 +14,6 @@ $(document).ready(function() {
     }).then(function(results) {
       // console.log(results)
       for (var i = 0; i < results.length; i++) {
-        $('#tbody').empty()
         newRow = $('<tr class="zodiac-row">')
         nameTd = $('<td>');
         dobTd = $('<td>');
